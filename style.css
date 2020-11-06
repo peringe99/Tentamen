@@ -63,6 +63,11 @@ h1{
     background-color: #3498db;
 }
 
+@media screen and (max-width: 575px){
+    .presentation{
+      width: 200px;
+    }
+}
 .form{
     width: 400px;
     background-color: #3498db;
@@ -76,4 +81,10 @@ h1{
     border-radius: 2px;
     border-style: solid;
     padding: 10px 10px 10px 10px;
+}
+
+@media screen and (max-width: 600px){
+    .form{
+        width: 200px;
+    }
 }
