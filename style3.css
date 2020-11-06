@@ -52,3 +52,85 @@ h1{
     color: white;
     font-size: 50px;
 }
+
+.animation{
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    position: relative;
+    animation-name: firstAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes firstAnimation {
+    0%   {
+        background-color: #3498db; 
+    }
+    25%  {
+        background-color:pink; width: 50px;
+    }
+    50%  {
+        background-color:blue; width: 100px;
+    }
+    75%  {
+        background-color:purple; width: 300px;
+    }
+    100% {
+        background-color: lightblue; width: 200px;
+    }
+}
+
+.hoverList > ul ul{
+    display: none;
+    list-style-type: none;
+}
+
+.hoverList > ul > li:hover > ul{
+    display: block;
+}
+
+.hoverList{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hoverList > ul{
+    list-style-type: none;
+}
+
+.hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #3498db;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    transition: width 3s, height 5s;
+}
+
+.hover:hover{
+    background-color: blue;
+    width: 300px;
+    height: 400px;
+}
+
+.bild img{
+    height: 25%;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
