@@ -1,3 +1,41 @@
+.ordnadLista{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: orange;
+    width: 250px;
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oordnadLista{
+    color: white;
+}
+
+.oordnadLista ol li{
+    list-style-type: upper-roman;
+}
+
+.första{
+    color: red;
+}
+
+.andra{
+    color: blue;
+}
+
+.tredje{
+    color: pink;
+}
+
+.fjärde{
+    color: purple;
+}
+
+.femte{
+    color: seagreen;
+}
+
 .buttonYoutube{
     margin: 0;
     padding: 0;  
@@ -51,29 +89,4 @@ h1{
     background-color: #3498db;
     color: white;
     font-size: 50px;
-}
-
-.presentation{
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #3498db;
-}
-
-.form{
-    width: 400px;
-    background-color: #3498db;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-color: black;
-    border-radius: 2px;
-    border-style: solid;
-    padding: 10px 10px 10px 10px;
 }
