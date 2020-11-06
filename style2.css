@@ -36,6 +36,24 @@
     color: seagreen;
 }
 
+.oordnadLista ol{
+    background-color: #3498db;
+    width: 350px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oordnadLista{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.familj, .fotbollslag, .basketlag, .artister, .kompisar{
+    list-style-type: none;
+}
+
 .buttonYoutube{
     margin: 0;
     padding: 0;  
@@ -77,6 +95,12 @@
     }
 }
 
+@media screen and (max-width: 620px){
+    .oordnadLista{
+        width: 100px;
+        margin-right: 700px;
+    }
+}
 .container1{
     display: flex;
     justify-content: center;
