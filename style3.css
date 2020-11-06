@@ -84,6 +84,60 @@ h1{
     }
 }
 
+@-webkit-keyframes firstAnimation {
+    0%   {
+        background-color: #3498db; 
+    }
+    25%  {
+        background-color:pink; width: 50px;
+    }
+    50%  {
+        background-color:blue; width: 100px;
+    }
+    75%  {
+        background-color:purple; width: 300px;
+    }
+    100% {
+        background-color: lightblue; width: 200px;
+    }
+}
+
+@-moz-keyframes firstAnimation {
+    0%   {
+        background-color: #3498db; 
+    }
+    25%  {
+        background-color:pink; width: 50px;
+    }
+    50%  {
+        background-color:blue; width: 100px;
+    }
+    75%  {
+        background-color:purple; width: 300px;
+    }
+    100% {
+        background-color: lightblue; width: 200px;
+    }
+}
+
+@-o-keyframes firstAnimation {
+    0%   {
+        background-color: #3498db; 
+    }
+    25%  {
+        background-color:pink; width: 50px;
+    }
+    50%  {
+        background-color:blue; width: 100px;
+    }
+    75%  {
+        background-color:purple; width: 300px;
+    }
+    100% {
+        background-color: lightblue; width: 200px;
+    }
+}
+
 .hoverList > ul ul{
     display: none;
     list-style-type: none;
